@@ -8,9 +8,9 @@ This is a temporary script file.
 
 import pandas as pd
 
-old_website_names = pd.read_csv("/Users/henry.wall/Documents/DESKTOP/employees data/website_employees.csv")
+old_website_names = pd.read_csv("old_data.csv")
 
-new_employees_names = pd.read_csv("/Users/henry.wall/Documents/DESKTOP/employees data/new_employees.csv")
+new_employees_names = pd.read_csv("new_data.csv")
 
 list1 = old_website_names['NAME'].tolist()
 list2 = new_employees_names['NAME'].tolist()
